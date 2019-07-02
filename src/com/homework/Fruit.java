@@ -16,6 +16,10 @@ public class Fruit {
         this.pricePerKg = pricePerKg;
     }
 
+    public double getWeight() {
+        return (weight / 1000.0);
+    }
+
     public double getPrice() {
         return pricePerKg * weight / 1000; // округлить до сотых
     }
