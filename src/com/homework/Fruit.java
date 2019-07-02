@@ -23,7 +23,6 @@ public class Fruit {
     public double getPrice() {
         return pricePerKg * weight / 1000; // округлить до сотых
     }
-
     @Override
     public String toString() {
         final StringBuffer sb = new StringBuffer("Fruit{");
